@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #262b26;
+    padding: 10px;
+}
+nav ul{
+     list-style:none;
+     display: flex;
+     justify-content: none;
+     margin-left: 700px;
+     margin-top: -50px;
+}
+nav li{
+    margin-left: 18px;
+}
+nav a{
+    text-decoration: none;
+    color: #f1f8f3;
+}
+#logo{
+    margin-left: 20px;
+}
+#main-head{
+        font-family: "Gravitas One", serif;
+       color: #118037;
+       margin-top: 120px;
+}
+.sub-head{
+    color: #000000;
+   text-align: justify;
+   width: 50%;
+}
+#home{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+h2{
+    font-family: "Gravitas One", serif;
+    color: #118037;
+    margin-top: 50px;
+    text-align: center;
+}
+#backstory{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+#backstory-content{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 70%;
+    position: relative;
+    left: 150px;
+}
