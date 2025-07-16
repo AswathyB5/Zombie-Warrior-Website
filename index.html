@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Page</title>
     <link rel="stylesheet" href="style.css">
-
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Akronim&family=Asset&family=Bebas+Neue&family=Bungee+Spice&family=Croissant+One&family=Eagle+Lake&family=Gravitas+One&family=Honk&family=Mystery+Quest&family=Niconne&family=Rochester&family=Rye&family=Sevillana&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -23,28 +23,115 @@
             </ul>
         </nav>
     </header>
-
-    <section>
+    <section id="homesec">
         <div id="home">
         <div id="home-content">
-        <h1 id="main-head">Death Warrior</h1><br>
+       <div id="content"> <h1 id="main-head">Death Warrior</h1><br>
        <p class="sub-head">Death Warrior is a fearless fighter born in a world overrun by the undead.
         He hunts zombies with his cursed blade, forged to destroy the walking dead.
         Once a lone soldier, now a legend feared by monsters and praised by survivors.
         His mission: cleanse the land and end the zombie plague once and for all.
-        </p>
-        </div>
-        <div id="home-img">
-                <img src="./assets/chara.png" alt="Death Warrior Image" height="400px">
-            </div>
-        </div>
+        </p></div>
+      </div>
+    </div>
     </section>
+    
     <section>
         <h2>Backstory: Death Warrior</h2>
         <div id="backstory">
-       <div><img src="./assets/Zombie.png" alt="Zombie Image" height="300px"></div>
-        <div id="backstory-content"><p class="sub-head">Once a revered general of the Shadow Legion, he was betrayed in battle and left to rot beneath the cursed soil of the Blackmoor Valley. Years later, dark magic reawakened his corpse — not with vengeance, but with a relentless hunger to destroy the undead who now plague the realm. Bound by rune-forged chains and driven by forgotten honor, he wanders the wastelands, his eyes glowing with the power of corrupted souls. He is no longer man, nor monster — he is the Death Warrior.</p></div>
+       <div><img src="./assets/backstory.jpg" alt="Zombie Image"  
+        height="400px"></div>
+        <div id="backstory-content"><p id="subhead1" >Once a revered general of the Shadow Legion, he was betrayed in battle and left to rot beneath the cursed soil of the Blackmoor Valley. Years later, dark magic reawakened his corpse — not with vengeance, but with a relentless hunger to destroy the undead who now plague the realm. Bound by rune-forged chains and driven by forgotten honor, he wanders the wastelands, his eyes glowing with the power of corrupted souls. He is no longer man, nor monster — he is the Death Warrior.</p></div>
         </div>
     </section>
-</body>
+
+
+    <section id="inventory">
+        <h2>Abilities</h2>
+        <div id="inventory-content1">
+        <div class="box"><h5>Soul Sword</h5><br>
+            <img src="./assets/0_919sQwMoJ5tT_i_9.png" alt="sword" width="100%" height="60%">
+
+       <p>A large sword that glows green. Every time he defeats an enemy, the sword becomes stronger and hits harder.</p>
+      </div>
+        <div class="box"><h5>Zombie Bomb</h5><br>
+           <img src="./assets/ravi-shankar-6.jpg" alt="sword" width="100%" height="60%">
+        </div>
+        <div class="box"><h5>Power Potion</h5><br>
+             <img src="./assets/ac3068e2f5bda4605808543589bd0554.jpg" alt="sword" width="100%" height="60%">
+        </div>
+        </div>
+        <div id="inventory-content2">
+        <div class="box"><h5>Bone Chain Hook</h5><br>
+            <img src="./assets/bone chain.jpg" alt="sword" width="100%" height="60%">
+        </div>
+
+        <div class="box"><h5> Smoke Orb </h5><br>
+            <img src="./assets/smoke orb.jpeg" alt="sword" width="100%" height="60%">
+        </div>
+        <div class="box"><h5> Healing Elixir</h5><br>
+            <img src="./assets/Elixier.jpeg" alt="sword" width="100%" >
+        </div>
+        </div>
+    </section>
+
+     <h2>Abilities</h2>
+    <section id="abilities">
+    <div id="parent">
+    <div id="abilities-content">
+        <div id="progress">
+           <div id="abilitys"><h3>Strength</h3></div> 
+           <div class="progress-bar">
+            <div id="progress1"></div>
+        </div>
+        <div id="abilities-content">
+           <div id="abilitys"><h3>Defense</h3></div> 
+           <div class="progress-bar">
+            <div id="progress2"></div>
+        </div>
+            <div id="abilities-content">
+           <div id="abilitys"><h3>Magic Power</h3></div> 
+           <div class="progress-bar">
+            <div id="progress3"></div>
+        </div>
+            <div id="abilities-content">
+           <div id="abilitys"><h3>Stamina</h3></div> 
+           <div class="progress-bar">
+            <div id="progress4"></div>
+        </div>
+            <div id="abilities-content">
+           <div id="abilitys"><h3>Speed</h3></div> 
+           <div class="progress-bar">
+            <div id="progress5"></div>
+        </div>
+    </div>
+   </div>
+
+    <div id="abilityimg">
+     <img src="./assets/skills.jpg" alt="sword" width="400px" height="300px">
+    </div>
+    </div>
+  </section>
+
+  <section id="enemies">
+    <h2>Enemies</h2>
+    <div id="enemies-content">
+      <div class="box1">
+        <img src="./assets/Enimie1.jpg" alt="sword" width="100%" height="100%">
+      </div>
+      <div class="box1">
+        <img src="./assets/Enime2.jpg" alt="sword" width="100%" height="100%">
+      </div>
+      <div class="box1">
+        <img src="./assets/Enimie3.jpg" alt="sword" width="100%" height="100%">
+      </div>
+      </div>
+      <div id="enimiebox">
+      <div class="box2"><h4> King Drazhar</h4> </div>
+      <div class="box2" id="secondbox"><h4 id="h41">Seraphine the Rune Warden</h4></div>
+      <div class="box2"  id="thirdbox"><h4 id="h41"> The Whispering Skull </h4></div>
+      </div>
+  </section>
+
+    </body>
 </html>
