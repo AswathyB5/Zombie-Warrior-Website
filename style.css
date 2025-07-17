@@ -2,28 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Solway", serif;
+}
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(to right ,grey,#D7D7D7,grey) ;
 }
 
 header {
-    background-color: #262b26;
-    padding: 10px;
+    background-color:#262b26;
+    padding: 15px;
+
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: none;
-    margin-left: 700px;
+    margin-left:180px;
     margin-top: -50px;
 }
 
 nav li {
-    margin-left: 18px;
+    margin-left: 30px;
 }
 
 nav a {
     text-decoration: none;
-    color: #f1f8f3;
+    color:#D7D7D7;
+    font-size: 20px;
 }
 
 #logo {
@@ -31,28 +42,37 @@ nav a {
 }
 
 #main-head {
-    font-family: "Gravitas One", serif;
-    color: #118037;
-    margin-top: 120px;
+    font-family: "Nosifer", sans-serif;
+    color: #262b26;
+    margin-top: 100px;
     text-align: center;
-    margin-top: -100px;
+    margin: 100px auto 0 auto;
+    font-size: 80px;
+    max-width: 100vw;
 }
-
 .sub-head {
-    color: #ffffff;
+    color: #262b26;
     text-align: justify;
     width: 80%;
     margin-left: 40px;
 }
 
+#homeimg1{
+    display: block;
+    margin: 0 auto;
+    margin-top: -100px;
+    max-width: 100%;
+    height: auto;
+}
 #home {
     margin-left: 30px;
     margin-top: 50px;
+
 }
 
 h2 {
-    font-family: "Gravitas One", serif;
-    color: #118037;
+    font-family: "Nosifer", sans-serif;
+    color: #262b26;
     margin-top: 50px;
     text-align: center;
 }
@@ -76,64 +96,60 @@ h2 {
     height: 300px;
     width: 300px;
 }
-#home-content{
-    width: 50%;
-    background-color: #000000;
-    height: 50%;
-    border-radius: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-#homeimg{
-    width: 100%;
-}
+
+
 #homesec {
-    background-image: url("assets/bgimg1.jpg");
+    background-image: url("assets/bg11.jpg");
     background-size: cover;
     background-position: center;
     padding: 60px 20px;
-    min-height: 120vh;
+    min-height: 80vh;
 }
 #content{
     margin-top: 100px;
+    margin-right: 50px;
 }
 #subhead1 {
     text-align: justify;
     width: 90%;
     margin-top: 80px;
-    color: #000000;
+    color: #262b26;
+    font-size: large;
 }
 
 #inventory-content1 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 0.7fr 1fr ;
+    margin-left: 140px;
 }
 
 .box {
     margin-left: 50px;
-    height: 500px;
-    width: 300px;
-    background-color: #000000;
+    height: 400px;
+    width: 400px;
+    background-color:#262b26;
     margin-top: 20px;
-    border-radius: 50px;
 }
 
 #inventory-content2 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 0.7fr 1fr;
+    margin-left: 140px;
+}
+#hook{
+    margin-left: -30px;
 }
 
 .progress-bar {
     height: 8px;
-    background-color: #000000;
-    width: 50%;
+    background-color: green;
+    width: 40%;
     border-radius: 50px;
     margin-left: 170px;
     margin-top: -10px;
 }
 
 
-
 #inventory-content2 {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -141,63 +157,63 @@ h2 {
 
 .progress-bar {
     height: 8px;
-    background-color: #000000;
-    width: 40%;
+    background-color: green;
+    width: 35%;
     border-radius: 50px;
-    margin-left: 170px;
+    margin-left: 180px;
     margin-top: -10px;
 
 }
 
 #progress1 {
-    background-color: green;
+    background-color: #262b26;
     height: 8px;
     width: 90%;
     border-radius: 50px;
 }
 
 #progress2 {
-    background-color: green;
+    background-color: #262b26;
     height: 8px;
     width: 85%;
     border-radius: 50px;
 }
 
 #progress3 {
-    background-color: green;
+    background-color: #262b26;
     height: 8px;
     width: 75%;
     border-radius: 50px;
 }
 
 #progress4 {
-    background-color: green;
+    background-color: #262b26;
     height: 8px;
     width: 80%;
     border-radius: 50px;
 }
 
 #progress5 {
-    background-color: green;
+    background-color: #262b26;
     height: 8px;
     width: 60%;
     border-radius: 50px;
 }
 
 #abilities-content {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #abilitys {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 #abilities {
     margin-top: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 h5{
-    color: white;
+    color: #D7D7D7;
     font-size: x-large;
     text-align: center;
     margin-top: 5px;;
@@ -206,7 +222,7 @@ h5{
     margin-left: 50px;
     height: 300px;
     width: 300px;
-    background-color: #000000;
+    background-color: whitesmoke;
     margin-top: 20px;
 }
 #enemies-content{
@@ -214,35 +230,113 @@ h5{
     justify-content: none;
 }
 #abilityimg {
-    margin-left: 700px;
+    margin-left: 800px;
     margin-top: -200px;
 }
+#abilityimg1{
+    margin-top: -60px;
+}
 #parent{
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .box2{
     height: 100px;
     width: 300px;
-    background-color: #000000;
+    background-color: #262b26;
     margin-top: 100px;
-    border-radius: 30%;
-    color: white;
+    border-radius: 10px;
+    color: whitesmoke;
+    margin-left: 50px;
+    font-size: small;
 }
 #enimiebox{
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-left: 50px;
-    margin-top: -100px;
+    margin-left: 70px;
+    margin-top: -140px;
+    margin-top: 3px;
+}
+#enimiebox1{
+    margin-left: 100px;
+}
+#enimiebox2{
+    margin-left: 100px;
+}
+#enimiebox3{
+    margin-left: 100px;
+}
+#enimiebox4{
+    margin-left: 100px;
+}
+#enimiebox5{
+    margin-left: 100px;
+}
+#secondbox{
+    margin-left: 110px;
 }
 
 #thirdbox{
-    margin-right: 160px;
+    margin-right: 150px;
+    margin-left: 120px;
 }
 h4{
-    margin-left: 70px;
-    margin-top: 30px;
+   text-align: center;
     font-size: x-large;
+    margin-top: 10px;
+    color: #D7D7D7;
 }
 #h41{
-    margin-right: 30px;
+    text-align: center;
+    margin-top: 10px;
+    color: #D7D7D7;
+}
+.boxes{
+    margin-left: 120px;
+    width: 300px;
+}
+#iconcontainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#icon {
+    font-size: 30px;
+    color: #262b26;
+    margin-left: 25px;
+
+}
+.com-head{
+    text-align: center;
+    color: #262b26;
+}
+h3{
+    color: #262b26;
+}
+#inventory{
+    margin-top: 50px;
+}
+.percent{
+    margin-left: 520px;
+    margin-top: -20px;
+    font-size: medium;
+    font-weight: bold;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #262b26;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #D7D7D7;
+    border-radius: 30px;
+}
+#icon:hover {
+    color: whitesmoke;
 }
