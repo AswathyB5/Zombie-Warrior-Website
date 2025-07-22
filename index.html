@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Page</title>
+    <title>Zombie Warrior</title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="shortcut icon" href="./assets/Zombie.png">
+ 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +19,7 @@
     <header>
         <nav>
             <img id="logo" src="./assets/logo.png" alt="Game Logo" height="80px" >
-            <ul data-aos="fade-right">
+            <ul data-aos="fade-right"   data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <li><a href="#homesec">Home</a></li>
                 <li><a href="#backstorys1">Back Story</a></li>
                 <li><a href="#inventory">Battle Inventory</a></li>
@@ -30,15 +31,15 @@
     </header>
     <section id="homesec">
        <div id="content"> 
-        <h1 id="main-head" data-aos="flip-up">Zombie Warrior</h1><br>
+        <h1 id="main-head" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Zombie Warrior</h1><br>
       </div>
-      <div id="homeimg" data-aos="fade-up"><img id="homeimg1"src="./assets/Zombie.png" alt="bg"></div>
+      <div id="homeimg"data-aos="fade-up"  data-aos-duration="3000"><img id="homeimg1"src="./assets/Zombie.png" alt="bg"></div>
     </section>
     
     <section id="backstorys1">
-        <h2 data-aos="fade-down">Backstory: Zombie Warrior</h2>
+        <h2 data-aos="fade-down"  data-aos-offset="300" data-aos-easing="ease-in-sine">Backstory: Zombie Warrior</h2>
         <div id="backstory">
-       <div  data-aos="fade-right"><img src="./assets/backstory.jpg" alt="Zombie Image"  
+       <div  data-aos="fade-right"  data-aos-offset="300" data-aos-easing="ease-in-sine"><img src="./assets/backstory.jpg" alt="Zombie Image"  
         height="400px"></div>
         <div id="backstory-content"  data-aos="fade-left"><p id="subhead1" >Once a revered general of the Shadow Legion, he was betrayed in battle and left to rot beneath the cursed soil of the Blackmoor Valley. Years later, dark magic reawakened his corpse — not with vengeance, but with a relentless hunger to destroy the undead who now plague the realm. Bound by rune-forged chains and driven by forgotten honor, he wanders the wastelands, his eyes glowing with the power of corrupted souls. He is no longer man, nor monster — he is the Zombie Warrior.</p></div>
         </div>
@@ -48,24 +49,29 @@
     <section id="inventory">
         <h2 data-aos="fade-down">Battle Inventory</h2><br><br>
         <div id="inventory-content1">
-        <div class="box" data-aos="zoom-in-up"><h5>Soul Sword</h5><br>
+        <div class="box" id="box1" data-aos="zoom-in-up"><h5>Soul Sword</h5><br>
             <img  src="./assets/0_919sQwMoJ5tT_i_9.png" alt="sword" width="100%" height="90%">
        
       </div>
-        <div class="box" data-aos="zoom-in-up"><h5>Zombie Bomb</h5><br>
-           <img src="./assets/ravi-shankar-6.jpg" alt="sword" width="100%" height="90%">
+      <p id="para1"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">" A massive, ethereal blade that radiates a haunting green glow. Each enemy it slays feeds the sword’s hunger, causing its glow to intensify and its strikes to grow deadlier. With every soul absorbed, the weapon becomes a more fearsome force of vengeance. "</p>
+
+
+        <div class="box" id="box2" data-aos="zoom-in-up"><h5>Combat Hatchet</h5><br>
+           <img src="./assets/combatHatchet.jpg" alt="sword" width="100%" height="90%">
         </div>
         </div>
+         <P id="para2"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">" A rugged, close-combat weapon forged for survival. With a matte black steel blade and a dark green paracord grip, this hatchet delivers deadly precision in tight encounters. Blood-stained from countless fights, it’s trusted by zombie hunters everywhere. "</P>
         <br>
         <div id="inventory-content2">
-        <div class="box" data-aos="zoom-in-up"><h5>Power Potion</h5><br>
-             <img src="./assets/ac3068e2f5bda4605808543589bd0554.jpg" alt="sword" width="100%" height="90%">
+        <div class="box" id="box3" data-aos="zoom-in-up"><h5>Power Potion</h5><br>
+             <img src="./assets/powepotion.jpg" alt="sword" width="100%" height="90%">
         </div>
+        <p id="para3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">" A glowing green elixir pulsing with energy. Just one sip boosts strength and stamina, giving survivors a critical edge in desperate moments. Its eerie green aura hints at a mysterious origin — and possibly a dark side. "</p>
     
-        <div class="box" id="hook" data-aos="zoom-in-up"><h5>Bone Chain Hook</h5><br>
+        <div class="box" id="box4" data-aos="zoom-in-up"><h5>Bone Chain Hook</h5><br>
             <img src="./assets/bone chain.jpg" alt="sword" width="100%" height="90%">
         </div>
-        
+        <p id="para4" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">" A brutal chain weapon tipped with a jagged bone hook, carved from the remains of ancient beasts. It can be hurled to impale and drag enemies closer or bind them in place, disrupting movement and breaking their momentum. Ideal for ambushes and close-quarters control. "</p>
         </div>
     </section><br><br>
 
@@ -76,7 +82,7 @@
         <div id="progress">
            <div id="abilitys"><h3>Strength</h3></div> 
            <div class="progress-bar">
-            <div id="progress1" data-aos="fade-right"></div>
+            <div id="progress1" data-aos="fade-right" ></div>
             <div class="percent">90%</div>
         </div>
         <div id="abilities-content">
@@ -88,13 +94,13 @@
             <div id="abilities-content">
            <div id="abilitys"><h3>MagicPower</h3></div> 
            <div class="progress-bar">
-            <div id="progress3" data-aos="fade-right"></div>
+            <div id="progress3" data-aos="fade-right" ></div>
             <div class="percent">75%</div>
         </div>
             <div id="abilities-content">
            <div id="abilitys"><h3>Stamina</h3></div> 
            <div class="progress-bar">
-            <div id="progress4" data-aos="fade-right"></div>
+            <div id="progress4" data-aos="fade-right" ></div>
             <div class="percent">80%</div>
         </div>
             <div id="abilities-content">
@@ -132,11 +138,11 @@
       </div>
   </section><br><br><br><br><hr>
   <section id="contact">
-        <div id="iconcontainer">
+        <div id="iconcontainer" data-aos="zoom-in-down">
                <div style="text-align: center;margin-top: 50px; font-weight: 700;color: black;font-size: large;">&copy;2025 BlackForge Interactive | Zombie Warrior </div><br><br>
                 <div style="text-align: center;margin-top: 50px; font-weight: 700;color: black;font-size: large;">Developed by BlackForge Interactive — Immersive Worlds, Legendary Heroes, All Right reserved </div><br><br>
                 <h1 class="com-head">Stay connected </h1><br>
-           <a   href="https://discord.com/" target="_blank"><i id="icon" class="fa-brands fa-discord"></i></a>
+           <a   href="https://discord.com/" target="_blank" ><i id="icon" class="fa-brands fa-discord" ></i></a>
            <a  href="https://x.com/?lang=en" target="_blank"><i id="icon" class="fa-brands fa-twitter"></i></a>
            <a  href="https://www.youtube.com/" target="_blank"><i id="icon" class="fa-brands fa-youtube"></i></a><br><br>
         </div>
